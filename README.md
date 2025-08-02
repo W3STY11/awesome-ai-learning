@@ -4,10 +4,10 @@
 
 <h3>A comprehensive, intelligently curated collection of 645+ AI and Machine Learning repositories</h3>
 
-[![GitHub Stars](https://img.shields.io/github/stars/aiwithnick/awesome-ai-learning?style=for-the-badge&logo=github&logoColor=white&labelColor=24292e&color=ffd700)](https://github.com/aiwithnick/awesome-ai-learning)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202025-brightgreen?style=for-the-badge&labelColor=24292e)](https://github.com/aiwithnick/awesome-ai-learning)
-[![Repositories](https://img.shields.io/badge/Repositories-645+-blue?style=for-the-badge&logo=git&logoColor=white&labelColor=24292e)](https://github.com/aiwithnick/awesome-ai-learning)
-[![Categories](https://img.shields.io/badge/Categories-13-purple?style=for-the-badge&logo=buffer&logoColor=white&labelColor=24292e)](https://github.com/aiwithnick/awesome-ai-learning)
+[![GitHub Stars](https://img.shields.io/github/stars/W3STY11/awesome-ai-learning?style=for-the-badge&logo=github&logoColor=white&labelColor=24292e&color=ffd700)](https://github.com/W3STY11/awesome-ai-learning)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-August%202025-brightgreen?style=for-the-badge&labelColor=24292e)](https://github.com/W3STY11/awesome-ai-learning)
+[![Repositories](https://img.shields.io/badge/Repositories-645+-blue?style=for-the-badge&logo=git&logoColor=white&labelColor=24292e)](https://github.com/W3STY11/awesome-ai-learning)
+[![Categories](https://img.shields.io/badge/Categories-13-purple?style=for-the-badge&logo=buffer&logoColor=white&labelColor=24292e)](https://github.com/W3STY11/awesome-ai-learning)
 
 <p align="center">
   <a href="#-quick-start">Quick Start</a> •
@@ -141,7 +141,7 @@ graph LR
 | 🟦 TypeScript Projects | **48** (7%) |
 | 🌍 Languages Covered | **31** |
 | 🏷️ Categories | **13** |
-| 🔄 Last Updated | **July 30, 2025** |
+| 🔄 Last Updated | **August 2, 2025** |
 
 </div>
 
@@ -176,8 +176,8 @@ See our [Contributing Guide](CONTRIBUTING.md) for detailed instructions.
 
 <div align="center">
 
-[![Daily Update](https://img.shields.io/badge/Updates-Daily%20at%202AM%20UTC-blue?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/aiwithnick/awesome-ai-learning/actions)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/aiwithnick/awesome-ai-learning/update-repos.yml?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/aiwithnick/awesome-ai-learning/actions)
+[![Daily Update](https://img.shields.io/badge/Updates-Daily%20at%202AM%20UTC-blue?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/W3STY11/awesome-ai-learning/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/W3STY11/awesome-ai-learning/update-repos.yml?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/W3STY11/awesome-ai-learning/actions)
 
 </div>
 
@@ -271,7 +271,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   
   <p>Made with ❤️ by the AI community for the AI community</p>
   
-  <a href="https://github.com/aiwithnick/awesome-ai-learning">
+  <a href="https://github.com/W3STY11/awesome-ai-learning">
     <img src="https://img.shields.io/badge/Give%20us%20a%20⭐-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="Give us a star">
   </a>
 </div>

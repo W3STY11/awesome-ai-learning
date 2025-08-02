@@ -88,7 +88,7 @@ Want to improve our analysis algorithms or automation? Great! Please:
 
 ```bash
 # Clone the repository
-git clone https://github.com/aiwithnick/awesome-ai-learning.git
+git clone https://github.com/W3STY11/awesome-ai-learning.git
 cd awesome-ai-learning
 
 # Create virtual environment

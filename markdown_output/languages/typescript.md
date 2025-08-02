@@ -289,11 +289,11 @@ Virtual whiteboard for sketching hand-drawn like diagrams
 
 ## 🧭 Navigation
 
-- [🏠 Main README](../README.md)
+- [🏠 Main README](../OVERVIEW.md)
 - [🔰 Beginner's Guide](../BEGINNER_GUIDE.md)
 - [🏆 Top 50 Repositories](../TOP_REPOSITORIES.md)
 - [📋 Complete Index](../INDEX.md)
-- [📊 All Languages](../README.md#-programming-languages)
+- [📊 All Languages](../OVERVIEW.md#-programming-languages)
 
 ---
 

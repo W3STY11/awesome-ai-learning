@@ -148,7 +148,7 @@ Tokenizer for Text to Speech (TTS) models
 
 ## 🧭 Navigation
 
-- [🏠 Main README](../README.md)
+- [🏠 Main README](../OVERVIEW.md)
 - [🔰 Beginner's Guide](../BEGINNER_GUIDE.md) 
 - [🏆 Top 50 Repositories](../TOP_REPOSITORIES.md)
 - [📋 Complete Index](../INDEX.md)
