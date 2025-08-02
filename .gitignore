@@ -6,12 +6,7 @@ __pycache__/
 .Python
 venv/
 env/
-*.env
-
-# Data files
-data/*.json
-data/*.csv
-data/cache/
+*.egg-info/
 
 # IDE
 .vscode/
@@ -23,15 +18,12 @@ data/cache/
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-logs/
+# Documentation build
+docs/_build/
+site/
 
 # Temporary files
 *.tmp
 *.bak
 *~
-
-# API tokens (extra safety)
-config.py
-secrets.json
+.cache/

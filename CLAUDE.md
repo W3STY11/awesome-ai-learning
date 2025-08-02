@@ -4,112 +4,112 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is an automated AI learning resource collection that curates and categorizes 645+ AI/ML repositories. It includes Python tools for fetching, analyzing, and generating documentation from GitHub repositories.
+This repository is a comprehensive template and guide for building professional AI/ML projects. It provides best practices, templates, and examples for structuring, developing, and deploying machine learning projects.
 
-## Architecture
+## Current Structure
 
 ```
 awesome-ai-learning/
-├── tools/                    # Python analysis and generation tools
-│   ├── fetch_stars.py       # GitHub API data collector
-│   ├── analyze_repos.py     # Repository categorization engine
-│   ├── generate_markdown.py # Documentation generator
-│   └── generate_docs.sh     # Shell script orchestrator
-├── markdown_output/         # Generated documentation
-│   ├── categories/          # Category-specific pages
-│   ├── languages/           # Language-specific collections
-│   ├── INDEX.md            # Complete repository index
-│   ├── TOP_REPOSITORIES.md # Top 50 ranked repos
-│   └── BEGINNER_GUIDE.md   # Structured learning path
-└── data/                    # JSON data files (if present)
+├── README.md              # Main overview of the template repository
+├── CONTRIBUTING.md        # Guidelines for contributors
+├── LICENSE               # MIT License
+├── CLAUDE.md            # This file
+├── .gitignore           # Git ignore patterns
+│
+├── templates/            # Ready-to-use project templates
+│   ├── project/         # Full project templates (PyTorch, TensorFlow, etc.)
+│   ├── model/           # Model documentation templates
+│   ├── data/            # Data pipeline templates
+│   └── deployment/      # Deployment configuration templates
+│
+├── guides/              # Comprehensive guides
+│   ├── setup/          # Environment setup guides
+│   ├── development/    # Development best practices
+│   ├── deployment/     # Deployment strategies
+│   └── best-practices/ # General ML best practices
+│
+├── examples/           # Working example implementations
+│   ├── pytorch/        # PyTorch examples
+│   ├── tensorflow/     # TensorFlow examples
+│   └── deployment/     # Deployment examples
+│
+├── resources/          # Additional resources and links
+│
+└── docs/              # Extended documentation
+
 ```
 
-## Key Components
+## Key Principles
 
-### Python Tools
-- **fetch_stars.py**: Uses GitHub GraphQL API to fetch repository metadata
-- **analyze_repos.py**: Categorizes repos using rule-based classification
-- **generate_markdown.py**: Creates professional markdown documentation
-- **test_analyzer.py**: Unit tests for analysis functionality
+1. **Template-First**: This is a template repository for AI/ML projects, not a project itself
+2. **Best Practices**: Every recommendation should follow industry best practices
+3. **Production-Ready**: All templates should be suitable for production use
+4. **Clear Documentation**: Every file should be well-documented
+5. **Practical Examples**: Include working examples, not just theory
 
-### Generated Documentation
-- Category pages with top repositories
-- Language-specific collections
-- Beginner's guide with 4-phase learning path
-- Top 50 repositories by composite score
-- Comprehensive index and navigation
+## Content Guidelines
+
+### Templates
+- Should be complete and ready to use
+- Include all necessary configuration files
+- Follow consistent naming conventions
+- Include inline documentation
+
+### Guides
+- Step-by-step instructions
+- Include code examples
+- Explain the "why" not just the "how"
+- Link to relevant resources
+
+### Examples
+- Must be fully functional
+- Include requirements.txt
+- Have clear README files
+- Demonstrate best practices
 
 ## Common Tasks
 
-### Update Repository Data
-```bash
-cd tools
-python fetch_stars.py
-python analyze_repos.py
-```
+### Adding New Templates
+1. Create template in appropriate directory
+2. Include comprehensive documentation
+3. Add example usage
+4. Update main README navigation
 
-### Generate Documentation
-```bash
-cd tools
-./generate_docs.sh
-# or
-python generate_markdown.py
-```
+### Creating Guides
+1. Use clear, structured markdown
+2. Include practical examples
+3. Test all commands/code
+4. Add troubleshooting section
 
-### Run Tests
-```bash
-cd tools
-python test_analyzer.py
-```
+### Updating Examples
+1. Ensure code runs without errors
+2. Use latest stable versions
+3. Include performance benchmarks
+4. Document any assumptions
 
-## Scoring Algorithm
+## URL Standards
+- All internal links should be relative
+- External links should be to stable, reputable sources
+- Prefer official documentation links
+- Test all links before committing
 
-Repositories are scored on 4 dimensions:
-- **Popularity** (25%): Stars, forks, community engagement
-- **Freshness** (25%): Recent commits, maintenance activity
-- **Learning Value** (30%): Documentation, tutorials, examples
-- **Documentation** (20%): README quality, guides, API docs
+## Quality Checklist
+- [ ] All code examples tested
+- [ ] Links verified
+- [ ] Consistent formatting
+- [ ] Clear navigation
+- [ ] No placeholder content
+- [ ] Production-ready recommendations
 
-## Important Notes
+## Repository Maintenance
 
-### GitHub API
-- Requires GITHUB_TOKEN environment variable for higher rate limits
-- Uses GraphQL API v4 for efficient data fetching
-- Implements rate limiting and error handling
+This repository should be:
+- Regularly updated with new best practices
+- Kept simple and focused
+- Free of outdated information
+- Easy to navigate and understand
 
-### Data Flow
-1. fetch_stars.py → raw repository data
-2. analyze_repos.py → categorized and scored data
-3. generate_markdown.py → beautiful markdown documentation
-
-### URL References
-- All GitHub URLs should use W3STY11, not aiwithnick
-- Ensure internal links use relative paths
-- External links should be validated
-
-### Quality Standards
-- Professional formatting with consistent styling
-- Clear navigation and cross-linking
-- Mobile-responsive markdown
-- Accessibility considerations
-
-## Maintenance
-
-### Regular Updates
-- Repository data should be refreshed periodically
-- Statistics in README need updating after data changes
-- Broken links should be checked and fixed
-- Categories may need adjustment as new repos are added
-
-### Code Quality
-- Python code follows PEP 8
-- Type hints where appropriate
-- Comprehensive error handling
-- Logging for debugging
-
-## Known Issues to Fix
-- URLs reference "aiwithnick" instead of "W3STY11"
-- Multiple README files causing confusion
-- Statistics may be outdated
-- Some category classifications need refinement
-- .swarm directory should be reviewed/removed
+## Notes
+- This replaced a previous repository that aggregated AI/ML repositories
+- Focus is now on providing templates and guides for building AI/ML projects
+- Target audience is developers building production AI/ML systems
